@@ -12,7 +12,7 @@ export default function Home() {
           <Image src="/Erik-headshot-transparent2.png" alt="headshot" width={350} height={350} priority objectFit="contain" className="rounded-full" />
         </div>
         <div>
-          <p className="text-3xl capitalize font-bold">Hi, I'm Erik Graybill</p>
+          <p className="text-3xl capitalize font-bold">Hi, I&#39;m Erik Graybill</p>
           <p className="text-2xl capitalize">Software Developer</p>
         </div>
       </div>
