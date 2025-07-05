@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2000"
+   height="2000"
+   viewBox="0 0 529.16667 529.16667"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="EG-Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.24"
+     inkscape:cx="1072.9167"
+     inkscape:cy="839.58333"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path8"
+       style="fill:#000000;stroke-width:0.264583"
+       d="M 265.10992 6.9158569 A 258.19403 258.19403 0 0 0 6.9158569 265.10992 A 258.19403 258.19403 0 0 0 265.10992 523.30398 A 258.19403 258.19403 0 0 0 523.30398 265.10992 A 258.19403 258.19403 0 0 0 522.41617 243.71432 L 479.50251 243.71432 A 215.93015 215.93015 0 0 1 480.51331 264.58333 A 215.93015 215.93015 0 0 1 264.58333 480.51331 A 215.93015 215.93015 0 0 1 48.653361 264.58333 A 215.93015 215.93015 0 0 1 264.58333 48.653361 A 215.93015 215.93015 0 0 1 463.00946 179.41902 L 508.66921 179.41902 A 258.19403 258.19403 0 0 0 265.10992 6.9158569 z " />
+    <path
+       id="rect6-8-1"
+       style="fill:#000000;stroke-width:0.298937"
+       d="M 346.01661 243.71432 L 346.01661 285.45234 L 515.09311 285.45234 L 515.09311 243.71432 L 346.01661 243.71432 z " />
+    <path
+       id="path9"
+       style="fill:#000000;stroke-width:0.671592"
+       d="M -137.681 135.20208 L -395.38362 135.20208 L -395.38362 366.21796 L -353.6456 366.21796 L -353.6456 176.9401 L -285.45234 176.9401 L -285.45234 304.27858 L -243.71432 304.27858 L -243.71432 176.9401 L -179.41902 176.9401 L -179.41902 366.21796 L -137.681 366.21796 L -137.681 135.20208 z "
+       transform="rotate(-90)" />
+  </g>
+</svg>
