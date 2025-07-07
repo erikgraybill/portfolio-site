@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 const robotoSans = Roboto({
   variable: "--font-roboto-sans",
@@ -20,10 +21,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${robotoSans.variable} antialiased`}>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Erik Graybill" />
+      </head>
+      <body className={`${robotoSans.variable} antialiased bg-erg-second-accent-tan`}>
+        <div className="flex flex-col min-h-screen max-w-[1600px] mx-auto bg-erg-background-white">
           <Header />
           {children}
-          <footer>ghjkl</footer>
+          <Footer />
+        </div>
       </body>
     </html>
   );
