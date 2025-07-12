@@ -4,15 +4,15 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section id="profile" className="flex justify-center mt-6 text-center mx-3">
-      <div id="headshot" className="align-middle">
-        <Image src="/Erik-headshot-transparent2.png" alt="headshot" width={350} height={350} priority className="bg-erg-highlight-sage rounded-full" />
+    <section className="md:flex block justify-center gap-[5rem] h-[60vh] m-8">
+      <div className="my-auto">
+        <Image src="/Erik-headshot-transparent2.png" alt="headshot" width={400} height={400} priority className="bg-erg-highlight-sage rounded-full" />
       </div>
-      <div>
+      <div className="self-center text-center">
         <p className="text-2xl font-medium">Hi, I&#39;m</p>
         <p className="text-4xl capitalize font-bold text-erg-primary-accent-green">Erik Graybill</p>
         <p className="text-2xl capitalize font-semibold">Human-Centered Software Developer</p>
-        <div id="btns" className="space-x-4">
+        <div className="space-x-4 pt-4">
           <button className="bg-transparent transition duration-300 border border-erg-primary-accent-green hover:bg-erg-highlight-sage text-erg-text-gray font-bold py-2 px-4 rounded-full cursor-pointer" onClick={() => window.open("/ErikGraybill_SoftwareDeveloper_Resume.pdf")}>
             Resume
           </button>
@@ -20,8 +20,8 @@ export default function Home() {
             Let&#39;s talk
           </button>
         </div>
-        <div id="socials" className="flex">
-          <Image src="/LinkedIn.svg" alt="headshot" width={45} height={45} priority className="hover: cursor-pointer" onClick={() => window.open("https://www.linkedin.com/in/erik-graybill/")}/>
+        <div className="flex justify-center gap-1 pt-2">
+          <Image src="/LinkedIn.svg" alt="headshot" width={35} height={35} priority className="hover: cursor-pointer" onClick={() => window.open("https://www.linkedin.com/in/erik-graybill/")}/>
         </div>
       </div>
     </section>
