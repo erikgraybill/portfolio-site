@@ -12,11 +12,6 @@
   --color-erg-highlight-sage: #B7C9A5;        /*Sage           - Links, badges, skill bubbles*/
 }
 
-html {
-  scroll-behavior: smooth;
-  color: var(--color-erg-text-gray)
-}
-
 a, .btn {
   transition: all 300ms ease;
 }
@@ -24,13 +19,5 @@ a, .btn {
 a:hover {
   color: var(--color-erg-highlight-sage);
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 6px;
 }
-
-section {
-  
-  
-  box-sizing: border-box;
-  min-height: fit-content;
-}
-

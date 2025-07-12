@@ -18,7 +18,7 @@ export default function Header() {
                     style={{ width: "150px", height: "10%" }}
                 />
             </div>
-            <div className="grow">
+            <div id="nav-links" className="grow">
                 <div className="hidden sm:flex items-center justify-end gap-8 text-[110%] font-semibold">
                     <Link href="#about">About</Link>
                     <Link href="#experience">Experience</Link>
@@ -27,7 +27,7 @@ export default function Header() {
                 </div>
             </div>
             <div className="flex grow items-center justify-end sm:hidden">
-                <PopoverButton className="inline-flex items-center justify-center rounded-md p-2 erg-text-gray
+                <PopoverButton className="inline-flex items-center justify-center rounded-md p-2 text-erg-text-gray
                 hover:bg-erg-background-white hover:text-erg-highlight-sage focus:outline-none focus:bg-erg-highlight-sage">
                     <span className="sr-only">Open Menu</span>
                     <Bars3Icon className="h-8 w-8" aria-hidden="true" />
@@ -43,8 +43,8 @@ export default function Header() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
             >
-                <PopoverPanel focus className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
-                    <div className="rounded-lg bg-erg-background-white shadow-lg ring-1 ring-erg-primary-accent-green ring-opacity-5 divide-y-2 divide-erg-highlight-sage">
+                <PopoverPanel focus className="absolute inset-x-auto top-0 right-0 origin-top-right transform p-2 transition md:hidden">
+                    <div className="rounded-lg bg-erg-background-white shadow-lg ring-erg-primary-accent-green ring-opacity-5 divide-y-2 divide-erg-highlight-sage">
                         <div className="px-5 pt-5 pb-6">
                             <div className="flex items-center justify-between">
                                 <Image
@@ -55,7 +55,7 @@ export default function Header() {
                                     style={{ width: "50px", height: "10%" }}
                                 />
                                 <div className="-mr-2">
-                                    <PopoverButton className="inline-flex items-center justify-center rounded-md p-2 erg-text-gray
+                                    <PopoverButton className="inline-flex items-center justify-center rounded-md p-2 text-erg-text-gray
                                     hover:bg-erg-background-white hover:text-erg-highlight-sage focus:outline-none focus:bg-erg-highlight-sage">
                                         <span className="sr-only">Close Menu</span>
                                         <XMarkIcon className="h-8 w-8" aria-hidden="true" />
@@ -64,10 +64,10 @@ export default function Header() {
                             </div>
                             <div className="mt-6">
                                 <nav className="grid gap-y-8 font-semibold">
-                                    <Link href="#about">About</Link>
-                                    <Link href="#experience">Experience</Link>
-                                    <Link href="#projects">Projects</Link>
-                                    <Link href="#contact">Contact</Link>
+                                    <PopoverButton as={Link} href="#about">About</PopoverButton>
+                                    <PopoverButton as={Link} href="#experience">Experience</PopoverButton>
+                                    <PopoverButton as={Link} href="#projects">Projects</PopoverButton>
+                                    <PopoverButton as={Link} href="#contact">Contact</PopoverButton>
                                 </nav>
                             </div>
                         </div>
