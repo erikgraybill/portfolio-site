@@ -44,7 +44,7 @@ export default function Header() {
                 leaveTo="opacity-0 scale-95"
             >
                 <PopoverPanel focus className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
-                    <div className="rounded-lg bg-erg-second-accent-tan shadow-lg ring-1 ring-erg-primary-accent-green ring-opacity-5 divide-y-2 divide-erg-highlight-sage">
+                    <div className="rounded-lg bg-erg-background-white shadow-lg ring-1 ring-erg-primary-accent-green ring-opacity-5 divide-y-2 divide-erg-highlight-sage">
                         <div className="px-5 pt-5 pb-6">
                             <div className="flex items-center justify-between">
                                 <Image
