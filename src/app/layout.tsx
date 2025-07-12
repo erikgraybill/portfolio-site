@@ -25,7 +25,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Erik Graybill" />
       </head>
       <body className={`${robotoSans.variable} antialiased bg-erg-second-accent-tan`}>
-        <div className="flex flex-col min-h-screen max-w-[1600px] mx-auto bg-erg-background-white">
+        <div className="flex flex-col min-h-screen max-w-[1600px] mx-auto bg-erg-background-white text-sm">
           <Header />
           {children}
           <Footer />
