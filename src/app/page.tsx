@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <section className="sm:flex block justify-center gap-[5rem] h-[70vh] mx-6">
+      <section id="profile" className="sm:flex block justify-center gap-[5rem] h-[70vh] mx-6 mb-[20vh]">
         <div className="my-auto">
           <Image src="/Erik-headshot-transparent2.png" alt="Headshot" width={400} height={400} priority className="bg-erg-highlight-sage rounded-full" />
         </div>
@@ -28,15 +28,46 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="contact" className="flex justify-center flex-col text-center h-[70vh] mb-[20vh]">
+      <section id="about" className="relative h-screen">
+        <p className="text-xl pt-12 text-center">Learn More</p>
+        <p className="text-5xl text-center font-bold pb-2 text-erg-primary-accent-green">About Me</p>
+        <div className="md:flex block  flex-col">
+          <div className="md:flex block gap-2 md:mx-auto mx-5 my-2 md:space-x-8">
+            <div className="my-5 p-4 flex-[1] border rounded-4xl border-erg-second-accent-tan text-center">
+              <div className="flex justify-center mb-2">
+                <Image src="/Email.svg" alt="Email Icon" width={30} height={30} priority />
+              </div>
+              <p className="text-2xl font-semibold">Education</p>
+              <p><span className="font-semibold">B.S. </span>Human-Centered Design and Development</p>
+              <p><span className="font-semibold">Minor </span>Security and Risk Analysis</p>
+            </div>
+            <div className="my-5 p-4 flex-[1] border rounded-4xl border-erg-second-accent-tan text-center">
+              <div className="flex justify-center mb-2">
+                <Image src="/Email.svg" alt="Email Icon" width={30} height={30} priority />
+              </div>
+              <p className="text-2xl font-semibold">Certifications</p>
+              <p><span className="font-semibold">Microsoft Certified: </span>Azure AI Engineer Associate</p>
+            </div>
+          </div>
+        </div>
+        <p className="text-center">Work in progress...coming soon!</p>
+        <Image src="/EG-Logo.svg" alt="Email Icon" width={25} height={25} priority className="hidden animate-bounce hover:cursor-pointer absolute -right-20 bottom-10" onClick={() => location.href="#experience"} />
+      </section>
+      <section id="experience" className="">
+        
+      </section>
+      <section id="experience" className="">
+        
+      </section>
+      <section id="contact" className="flex justify-center flex-col text-center h-[90vh]">
         <p className="text-xl">Have a project in mind?</p>
         <p className="text-5xl font-bold pb-2 text-erg-primary-accent-green">Reach Out</p>
-        <div className="md:flex block justify-center border rounded-4xl border-erg-second-accent-tan mx-auto mt-8 p-4">
+        <div className="md:flex block justify-center border rounded-3xl border-erg-second-accent-tan mx-auto mt-6 ">
           <div className="flex items-center justify-center gap-2 m-4">
             <Image src="/Email.svg" alt="Email Icon" width={25} height={25} priority />
             <a href="mailto:graybiller&#64;gmail.com">graybiller&#64;gmail.com</a>
           </div>
-          <div className="flex items-center justify-center gap-2">
+          <div className="flex items-center justify-center gap-2 m-4">
             <Image src="/LinkedIn.svg" alt="LinkedIn Icon" width={25} height={25} priority />
             <a href="https://www.linkedin.com/in/erik-graybill/">LinkedIn</a>
           </div>
