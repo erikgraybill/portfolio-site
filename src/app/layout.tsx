@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth text-erg-text-gray">
+    <html lang="en" className="scroll-smooth text-erg-text-gray text-sm">
       <head>
         <meta name="apple-mobile-web-app-title" content="Erik Graybill" />
       </head>

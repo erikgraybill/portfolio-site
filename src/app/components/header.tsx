@@ -21,7 +21,6 @@ export default function Header() {
             <div id="nav-links" className="grow">
                 <div className="hidden sm:flex items-center justify-end gap-8 text-[110%] font-semibold">
                     <Link href="#about">About</Link>
-                    <Link href="#experience">Experience</Link>
                     <Link href="#projects">Projects</Link>
                     <Link href="#contact">Contact</Link>
                 </div>
@@ -65,7 +64,6 @@ export default function Header() {
                             <div className="mt-6">
                                 <nav className="grid gap-y-8 font-semibold">
                                     <PopoverButton as={Link} href="#about">About</PopoverButton>
-                                    <PopoverButton as={Link} href="#experience">Experience</PopoverButton>
                                     <PopoverButton as={Link} href="#projects">Projects</PopoverButton>
                                     <PopoverButton as={Link} href="#contact">Contact</PopoverButton>
                                 </nav>
