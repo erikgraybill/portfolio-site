@@ -20,12 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth text-erg-text-gray">
+    <html lang="en" className="scroll-smooth text-erg-text-gray text-sm">
       <head>
         <meta name="apple-mobile-web-app-title" content="Erik Graybill" />
       </head>
       <body className={`${robotoSans.variable} antialiased bg-erg-second-accent-tan`}>
-        <div className="flex flex-col min-h-screen max-w-[1500px] mx-auto bg-erg-background-white">
+        <div className="flex flex-col min-h-screen max-w-[1200px] mx-auto bg-erg-background-white">
           <Header />
           {children}
           <Footer />
